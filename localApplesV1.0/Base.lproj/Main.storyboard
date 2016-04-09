@@ -119,12 +119,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cdY-zv-bHj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="590" y="339"/>
+            <point key="canvasLocation" x="696" y="323"/>
         </scene>
-        <!--View Controller-->
+        <!--Schedule View Controller-->
         <scene sceneID="O9o-7f-Agi">
             <objects>
-                <viewController id="IJ8-kZ-XAa" sceneMemberID="viewController">
+                <viewController id="IJ8-kZ-XAa" customClass="ScheduleViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="x1W-7Q-3Jo"/>
                         <viewControllerLayoutGuide type="bottom" id="mY3-3w-0wP"/>
@@ -269,10 +269,25 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="fridayEntry" destination="Ooh-Lg-nyF" id="2De-8x-Pbh"/>
+                        <outlet property="fridayExit" destination="PyC-cB-w8P" id="Wm6-aP-gJ1"/>
+                        <outlet property="mondayEntry" destination="puo-ib-LFZ" id="Ocu-T3-QDB"/>
+                        <outlet property="mondayExit" destination="azP-r7-yTT" id="RW7-ey-yXs"/>
+                        <outlet property="saturdayEntry" destination="zzg-3B-e0g" id="ywt-nX-h4x"/>
+                        <outlet property="saturdayExit" destination="kLU-HK-Qpz" id="rDV-gp-Tzf"/>
+                        <outlet property="sundayEntry" destination="PBh-JW-y7u" id="6fG-Of-Uqn"/>
+                        <outlet property="thursdayEntry" destination="Rhu-Es-f92" id="q0d-s2-RSy"/>
+                        <outlet property="thursdayExit" destination="DxZ-RH-Sd0" id="jS7-DY-5uJ"/>
+                        <outlet property="tuesdayEntry" destination="euA-Va-SGt" id="0PW-sg-zxX"/>
+                        <outlet property="tuesdayExit" destination="n5b-B1-xaR" id="VuV-vl-7yt"/>
+                        <outlet property="wednesdayEntry" destination="cgW-32-yvV" id="KtA-6W-Fxk"/>
+                        <outlet property="wednesdayExit" destination="Kee-NN-qiA" id="xwY-4B-aT8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pqm-wB-RYd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="966" y="339"/>
+            <point key="canvasLocation" x="1074" y="323"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="wss-rr-6LC">
@@ -315,7 +330,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="55H-PH-PzJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1351" y="339"/>
+            <point key="canvasLocation" x="1443" y="323"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="BfC-1P-M5T">
@@ -455,6 +470,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="QVI-zN-O2B"/>
+        <segue reference="NXc-4O-RYg"/>
     </inferredMetricsTieBreakers>
 </document>

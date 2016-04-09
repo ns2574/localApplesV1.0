@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C7B0C85E1CB8DE9E00D5A6A1 /* ScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B0C85D1CB8DE9E00D5A6A1 /* ScheduleViewController.m */; settings = {ASSET_TAGS = (); }; };
 		C7E9F57B1CB8B95000E1ACCD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E9F57A1CB8B95000E1ACCD /* main.m */; };
 		C7E9F57E1CB8B95000E1ACCD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E9F57D1CB8B95000E1ACCD /* AppDelegate.m */; };
 		C7E9F5811CB8B95000E1ACCD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E9F5801CB8B95000E1ACCD /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C7B0C85C1CB8DE9E00D5A6A1 /* ScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleViewController.h; sourceTree = "<group>"; };
+		C7B0C85D1CB8DE9E00D5A6A1 /* ScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleViewController.m; sourceTree = "<group>"; };
 		C7E9F5761CB8B95000E1ACCD /* localApplesV1.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = localApplesV1.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7E9F57A1CB8B95000E1ACCD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C7E9F57C1CB8B95000E1ACCD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -110,6 +113,8 @@
 				C7E9F5871CB8B95000E1ACCD /* LaunchScreen.storyboard */,
 				C7E9F58A1CB8B95000E1ACCD /* Info.plist */,
 				C7E9F5791CB8B95000E1ACCD /* Supporting Files */,
+				C7B0C85C1CB8DE9E00D5A6A1 /* ScheduleViewController.h */,
+				C7B0C85D1CB8DE9E00D5A6A1 /* ScheduleViewController.m */,
 			);
 			path = localApplesV1.0;
 			sourceTree = "<group>";
@@ -273,6 +278,7 @@
 				C7E9F5811CB8B95000E1ACCD /* ViewController.m in Sources */,
 				C7E9F57E1CB8B95000E1ACCD /* AppDelegate.m in Sources */,
 				C7E9F57B1CB8B95000E1ACCD /* main.m in Sources */,
+				C7B0C85E1CB8DE9E00D5A6A1 /* ScheduleViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
